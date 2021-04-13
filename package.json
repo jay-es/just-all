@@ -1,8 +1,17 @@
 {
-  "name": "just-all",
-  "version": "0.1.0",
+  "name": "@jay-es/just-all",
+  "version": "0.0.2",
   "description": "All Just modules",
   "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js",
+    "index.d.ts",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
